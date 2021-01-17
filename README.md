@@ -16,7 +16,7 @@
 
 > Mobile Monthly
 
-![Mobile Monthly](./design/mobile-design-annually.jpg)
+![Mobile Monthly](./design/mobile-design-monthly.jpg)
 
 
 ## Genral 
