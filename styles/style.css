@@ -178,3 +178,20 @@ body {
     background-color: transparent;
     color: hsl(240, 78%, 98%);
 }
+
+@media only screen and (max-width: 900px) {
+    .pricing {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        align-items: stretch;
+    }
+   
+}
+
+@media only screen and (max-width: 420px) {
+    .pricing {
+        max-width: 360px;
+    }
+}
