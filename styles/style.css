@@ -64,11 +64,11 @@ body {
     clip: rect(0, 0, 0, 0);
 }
 
-.welcome__checkbox:focus + .welcome__button::after {
-    outline: 4px solid pink;    
+.welcome__checkbox:focus+.welcome__button::after {
+    outline: 4px solid pink;
 }
 
-.welcome__checkbox:checked + .welcome__button::after {
+.welcome__checkbox:checked+.welcome__button::after {
     left: 20px;
 }
 
@@ -154,7 +154,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
-    background-image: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%)); 
+    background-image: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
     border-radius: 5px;
     border: 1px solid hsl(237, 63%, 64%);
     cursor: pointer;
@@ -179,6 +179,15 @@ body {
     color: hsl(240, 78%, 98%);
 }
 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
 @media only screen and (max-width: 900px) {
     .pricing {
         max-width: 400px;
@@ -187,7 +196,6 @@ body {
         flex-direction: column;
         align-items: stretch;
     }
-   
 }
 
 @media only screen and (max-width: 420px) {
