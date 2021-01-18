@@ -1,5 +1,9 @@
 # fm-pricing-component (Pricing Component with Toggle)
 
+## Live Preview
+
+Live Preview: [https://nitearie.github.io/fm-pricing-component/](https://nitearie.github.io/fm-pricing-component/)
+
 ## Design
 
 > Desktop Annually
