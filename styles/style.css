@@ -156,11 +156,25 @@ body {
     letter-spacing: 2px;
     background-image: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%)); 
     border-radius: 5px;
-    border: 0;
+    border: 1px solid hsl(237, 63%, 64%);
+    cursor: pointer;
+    transition: 200ms all ease-out;
+}
+
+.pricing__cta:hover {
+    background-color: transparent;
+    background-image: none;
+    color: hsl(237, 63%, 64%);
 }
 
 .pricing__cta--inverse {
     background-color: hsl(240, 78%, 98%);
     background-image: none;
     color: hsl(237, 63%, 64%);
+    border: 1px solid hsl(240, 78%, 98%);
+}
+
+.pricing__cta--inverse:hover {
+    background-color: transparent;
+    color: hsl(240, 78%, 98%);
 }
