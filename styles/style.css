@@ -6,13 +6,24 @@
 
 body {
     font-family: "Montserrat", sans-serif;
+    height: 100vh;
     font-size: 15px;
     background-color: hsl(240, 78%, 98%);
+    background-image: 
+        url("../images/bg-top.svg"),
+        url("../images/bg-bottom.svg");
+    
+    background-repeat: no-repeat;
+    background-position: top right, bottom left;
+}
+
+.l-container {
+    padding: 50px 0;
 }
 
 .l-container__item {
     max-width: 900px;
-    margin: 50px auto;
+    margin: 0px auto;
 }
 
 .welcome {
@@ -134,11 +145,11 @@ body {
     padding: 15px 0;
     color: hsl(233, 13%, 49%);
     font-size: 13px;
-    border-top: 1px solid hsl(234, 14%, 74%);
+    border-top: 1px solid hsl(240, 78%, 93%);
 }
 
 .pricing__info--last {
-    border-bottom: 1px solid hsl(234, 14%, 74%);
+    border-bottom: 1px solid hsl(240, 78%, 93%);
 }
 
 .pricing__info--inverse {
@@ -189,6 +200,12 @@ body {
 }
 
 @media only screen and (max-width: 900px) {
+
+    body {
+        background-image: url("../images/bg-top.svg");
+        background-position: 170% 0%;
+    }
+    
     .pricing {
         max-width: 400px;
         margin-left: auto;
